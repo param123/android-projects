@@ -21,8 +21,7 @@ public class Sudoku extends Activity implements OnClickListener{
         View exit_button=findViewById(R.id.exit_button);
         exit_button.setOnClickListener(this);
     }
-
-	@Override
+    
 	public void onClick(View v) {
 		switch(v.getId()){
 		case R.id.about_button:
